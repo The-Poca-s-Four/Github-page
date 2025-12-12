@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZeroBase — Zero-Based Budgeting for Students</title>
+  <meta name="description" content="ZeroBase helps students control spending using a simple zero-based budgeting approach." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-noise"></div>
+
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="container nav__wrap">
+      <div class="brand">
+        <div class="brand__mark">ZB</div>
+        <div class="brand__name">ZeroBase</div>
+      </div>
+      <nav class="nav__links">
+        <a href="#problem">Problem</a>
+        <a href="#solution">Solution</a>
+        <a href="#features">Features</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#contact" class="btn btn--ghost">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero__grid">
+      <div>
+        <span class="pill pill--green">🎓 Student Project • 2025</span>
+        <h1 class="h1">Know your limit for a better end-of-month.</h1>
+        <p class="lead">
+          ZeroBase is a personal finance application designed for students,
+          applying the <strong>zero-based budgeting</strong> method to help users
+          allocate, track, and control their spending effectively.
+        </p>
+
+        <div class="cta">
+          <a class="btn btn--primary" href="#features">Explore MVP</a>
+          <a class="btn btn--secondary" href="#contact">View Demo</a>
+        </div>
+      </div>
+
+      <!-- Hero Card with App Preview -->
+      <div class="heroCard">
+        <div class="heroCard__top">
+          <div class="heroCard__logo">
+            <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <circle cx="20" cy="20" r="18" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="20" cy="20" r="6" fill="currentColor"/>
+            </svg>
+          </div>
+          <div class="heroCard__title">
+            <div class="heroCard__name">ZeroBase</div>
+            <div class="heroCard__sub">
+              Zero-based budgeting for better financial discipline
+            </div>
+          </div>
+        </div>
+        
+        <!-- App Screenshot Preview -->
+        <div class="app-preview">
+          <img src="image/Homepage.png" alt="ZeroBase App Homepage" class="preview-img" />
+        </div>
+      </div>
+    </div>
+    
+    <!-- Metrics moved below hero -->
+    <div class="container">
+      <div class="metrics">
+        <div class="metric">
+          <div class="metric__kpi">50+</div>
+          <div class="metric__label">Target daily users</div>
+        </div>
+        <div class="metric">
+          <div class="metric__kpi">67%</div>
+          <div class="metric__label">Budget adherence rate</div>
+        </div>
+        <div class="metric">
+          <div class="metric__kpi">4.6 / 5</div>
+          <div class="metric__label">Expected user satisfaction</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Problem & Solution -->
+  <section class="section" id="problem">
+    <div class="container split">
+      <div class="panel panel--red">
+        <div class="panel__head">
+          <span class="iconBadge iconBadge--red">!</span>
+          <h2 class="h2">Problem</h2>
+        </div>
+        <p class="text">
+          Many students lack clear financial planning skills. Monthly budgets are often
+          vague, expenses are tracked too late, and overspending usually occurs near
+          the end of the month.
+        </p>
+      </div>
+
+      <div class="panel panel--green" id="solution">
+        <div class="panel__head">
+          <span class="iconBadge iconBadge--green">✓</span>
+          <h2 class="h2">Solution</h2>
+        </div>
+        <p class="text">
+          ZeroBase applies the zero-based budgeting method, where every unit of income
+          is assigned a purpose. This helps students gain clarity, control spending early,
+          and build sustainable financial habits.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Value Proposition -->
+  <section class="section">
+    <div class="container">
+      <div class="sectionHead">
+        <h2 class="h2 center">Value Proposition</h2>
+        <p class="muted center">
+          Why ZeroBase is suitable for students managing limited budgets.
+        </p>
+      </div>
+
+      <div class="grid3">
+        <div class="card card--blue">
+          <span class="card__icon">📊</span>
+          <h3 class="h3">Control spending early</h3>
+          <p class="muted">
+            Track daily expenses and identify overspending before it becomes critical.
+          </p>
+        </div>
+
+        <div class="card card--green">
+          <span class="card__icon">🌱</span>
+          <h3 class="h3">Build healthy habits</h3>
+          <p class="muted">
+            Encourage discipline through daily logging and weekly budget reviews.
+          </p>
+        </div>
+
+        <div class="card card--purple">
+          <span class="card__icon">⚡</span>
+          <h3 class="h3">Learn zero-based budgeting</h3>
+          <p class="muted">
+            Allocate income intentionally so that no money is left unmanaged.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Features -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="sectionHead">
+        <h2 class="h2 center">Core Features (MVP)</h2>
+        <p class="muted center">
+          A minimal yet effective feature set for initial validation.
+        </p>
+      </div>
+
+      <div class="grid2">
+        <div class="feature">
+          <span class="iconBadge iconBadge--green">＋</span>
+          <div>
+            <h3 class="h3">Quick Add Transactions</h3>
+            <p class="muted">
+              Instantly record your daily expenses with predefined categories and smart suggestions.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <span class="iconBadge iconBadge--blue">≡</span>
+          <div>
+            <h3 class="h3">Safe-to-Spend Overview</h3>
+            <p class="muted">
+              Know exactly how much you can spend today without exceeding your monthly budget.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <span class="iconBadge iconBadge--orange">▣</span>
+          <div>
+            <h3 class="h3">Understand Funds Priority</h3>
+            <p class="muted">
+              Visual breakdown of where your money goes, helping you prioritize essential expenses.
+            </p>
+          </div>
+        </div>
+
+        <div class="feature">
+          <span class="iconBadge iconBadge--purple">⦿</span>
+          <div>
+            <h3 class="h3">Zero-Based Allocation</h3>
+            <p class="muted">
+              Assign every dollar a purpose. Budget = Income ensures complete financial control.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- App Screenshots Gallery -->
+  <section class="section bg-dark">
+    <div class="container">
+      <div class="sectionHead">
+        <h2 class="h2 center">App Interface Preview</h2>
+        <p class="muted center">
+          Take a look at our intuitive and user-friendly design
+        </p>
+      </div>
+
+      <div class="screenshots-gallery">
+        <div class="screenshot-card">
+          <div class="screenshot-wrapper">
+            <img src="image/Homepage.png" alt="ZeroBase Homepage - Budget Overview" />
+          </div>
+          <div class="screenshot-info">
+            <h3 class="h3">Budget Overview</h3>
+            <p class="muted">See your financial status at a glance with clear visualizations</p>
+          </div>
+        </div>
+
+        <div class="screenshot-card">
+          <div class="screenshot-wrapper">
+            <img src="image/Homepage (1).png" alt="ZeroBase Transactions - Expense Tracking" />
+          </div>
+          <div class="screenshot-info">
+            <h3 class="h3">Expense Tracking</h3>
+            <p class="muted">Track and categorize every transaction effortlessly</p>
+          </div>
+        </div>
+
+        <div class="screenshot-card">
+          <div class="screenshot-wrapper">
+            <img src="image/Homepage (2).png" alt="ZeroBase Analytics - Spending Insights" />
+          </div>
+          <div class="screenshot-info">
+            <h3 class="h3">Spending Insights</h3>
+            <p class="muted">Understand your spending patterns with detailed analytics</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact-Effort Matrix -->
+  <section class="section bg-dark">
+    <div class="container">
+      <div class="sectionHead">
+        <h2 class="h2 center">Impact-Effort Matrix</h2>
+        <p class="muted center">
+          Prioritizing features based on user value and development complexity
+        </p>
+      </div>
+
+      <div class="matrix-grid">
+        <div class="matrix-item quick-wins">
+          <div class="matrix-badge">⚡ Quick Wins</div>
+          <ul class="matrix-list">
+            <li>Quick transaction entry</li>
+            <li>Safe-to-spend indicator</li>
+            <li>Spending alerts</li>
+          </ul>
+        </div>
+
+        <div class="matrix-item major-projects">
+          <div class="matrix-badge">🚀 Major Projects</div>
+          <ul class="matrix-list">
+            <li>AI spending insights</li>
+            <li>Multi-currency support</li>
+            <li>Bank integration</li>
+          </ul>
+        </div>
+
+        <div class="matrix-item fill-ins">
+          <div class="matrix-badge">📋 Fill Ins</div>
+          <ul class="matrix-list">
+            <li>Dark mode</li>
+            <li>Export reports</li>
+            <li>Custom categories</li>
+          </ul>
+        </div>
+
+        <div class="matrix-item thankless-tasks">
+          <div class="matrix-badge">⚙️ Thankless Tasks</div>
+          <ul class="matrix-list">
+            <li>Data backup</li>
+            <li>Security audit</li>
+            <li>Performance optimization</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Advantage -->
+  <section class="section">
+    <div class="container">
+      <div class="sectionHead">
+        <h2 class="h2 center">Our Advantage</h2>
+        <p class="muted center">
+          What sets ZeroBase apart from other budgeting solutions
+        </p>
+      </div>
+
+      <div class="advantage-grid">
+        <div class="advantage-card">
+          <div class="advantage-icon green">✓</div>
+          <h3 class="h3">Made for Students</h3>
+          <ul class="advantage-list">
+            <li>Optimized for limited income</li>
+            <li>Simple, distraction-free interface</li>
+            <li>Focus on essential spending categories</li>
+          </ul>
+        </div>
+
+        <div class="advantage-card">
+          <div class="advantage-icon purple">🎯</div>
+          <h3 class="h3">Zero-Based Method</h3>
+          <ul class="advantage-list">
+            <li>Every dollar has a purpose</li>
+            <li>Prevents unplanned overspending</li>
+            <li>Builds intentional money habits</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Target Customers -->
+  <section class="section bg-dark">
+    <div class="container">
+      <div class="sectionHead">
+        <h2 class="h2 center">Target Customers</h2>
+        <p class="muted center">
+          Our primary user segments and their unique needs
+        </p>
+      </div>
+
+      <div class="customer-grid">
+        <div class="customer-card">
+          <div class="customer-icon">🎓</div>
+          <h3 class="h3">University Students</h3>
+          <p class="muted">Managing monthly allowances and part-time income with limited financial experience.</p>
+          <div class="customer-stats">
+            <div class="stat-pill">Age: 18-24</div>
+            <div class="stat-pill">Income: 3-7M VND/month</div>
+          </div>
+        </div>
+
+        <div class="customer-card">
+          <div class="customer-icon">💼</div>
+          <h3 class="h3">Fresh Graduates</h3>
+          <p class="muted">Starting their first job and learning to manage a regular salary responsibly.</p>
+          <div class="customer-stats">
+            <div class="stat-pill">Age: 22-26</div>
+            <div class="stat-pill">Income: 8-15M VND/month</div>
+          </div>
+        </div>
+
+        <div class="customer-card">
+          <div class="customer-icon">👨‍👩‍👧</div>
+          <h3 class="h3">Young Families</h3>
+          <p class="muted">Couples and young parents planning household budgets and saving for the future.</p>
+          <div class="customer-stats">
+            <div class="stat-pill">Age: 25-35</div>
+            <div class="stat-pill">Income: 15-30M VND/month</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Growth Insights -->
+  <section class="section">
+    <div class="container">
+      <div class="sectionHead">
+        <h2 class="h2 center">Growth Insights</h2>
+        <p class="muted center">Key performance indicators tracking our progress</p>
+      </div>
+
+      <div class="grid4">
+        <div class="kpi-card">
+          <div class="kpi-icon blue">👤</div>
+          <div class="kpi-value">50+</div>
+          <div class="kpi-label">Daily Active Users</div>
+          <div class="kpi-trend positive">+12% vs target</div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon green">💰</div>
+          <div class="kpi-value">₫42M</div>
+          <div class="kpi-label">Collective Budgets</div>
+          <div class="kpi-trend positive">+8% growth</div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon purple">📊</div>
+          <div class="kpi-value">67%</div>
+          <div class="kpi-label">Budget Adherence</div>
+          <div class="kpi-trend positive">+5% improvement</div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-icon orange">⭐</div>
+          <div class="kpi-value">4.6/5</div>
+          <div class="kpi-label">User Satisfaction</div>
+          <div class="kpi-trend positive">Above target</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Business Model -->
+  <section class="section bg-dark">
+    <div class="container">
+      <div class="sectionHead">
+        <h2 class="h2 center">Business Model</h2>
+        <p class="muted center">Sustainable revenue streams for long-term growth</p>
+      </div>
+
+      <div class="grid3">
+        <div class="biz-card blue-card">
+          <div class="biz-icon">📱</div>
+          <h3 class="h3">Channels</h3>
+          <ul class="biz-list">
+            <li>Mobile App (iOS & Android)</li>
+            <li>Web Application</li>
+            <li>Social Media Marketing</li>
+            <li>University Partnerships</li>
+            <li>Word of Mouth Referrals</li>
+          </ul>
+        </div>
+
+        <div class="biz-card purple-card">
+          <div class="biz-icon">💵</div>
+          <h3 class="h3">Cost Structure</h3>
+          <ul class="biz-list">
+            <li>Cloud hosting & infrastructure</li>
+            <li>Development & maintenance</li>
+            <li>Customer support</li>
+            <li>Marketing & user acquisition</li>
+            <li>Payment processing fees</li>
+          </ul>
+        </div>
+
+        <div class="biz-card green-card">
+          <div class="biz-icon">💰</div>
+          <h3 class="h3">Revenue Streams</h3>
+          <ul class="biz-list">
+            <li>Freemium subscription model</li>
+            <li>Premium features (₫49K/month)</li>
+            <li>Financial literacy courses</li>
+            <li>Affiliate partnerships</li>
+            <li>Anonymous data insights</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Our Vision -->
+  <section class="section">
+    <div class="container">
+      <div class="vision-box">
+        <div class="vision-icon">
+          <svg width="60" height="60" viewBox="0 0 60 60" fill="none">
+            <circle cx="30" cy="30" r="28" stroke="url(#grad1)" stroke-width="3"/>
+            <circle cx="30" cy="30" r="12" fill="url(#grad1)"/>
+            <defs>
+              <linearGradient id="grad1" x1="0" y1="0" x2="60" y2="60">
+                <stop offset="0%" stop-color="#43f08a"/>
+                <stop offset="100%" stop-color="#5bb7ff"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <h2 class="h2 center">Our Vision</h2>
+        <p class="vision-text">
+          To empower the next generation with financial clarity and discipline, 
+          starting from their student years. We believe that mastering money early 
+          creates a foundation for lifelong prosperity and peace of mind.
+        </p>
+        <div class="vision-values">
+          <div class="value-item">
+            <span class="value-icon">🎯</span>
+            <span>Intentional Spending</span>
+          </div>
+          <div class="value-item">
+            <span class="value-icon">🌱</span>
+            <span>Financial Growth</span>
+          </div>
+          <div class="value-item">
+            <span class="value-icon">💪</span>
+            <span>Money Confidence</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meet Our Team -->
+  <section class="section bg-dark">
+    <div class="container">
+      <div class="sectionHead">
+        <h2 class="h2 center">Meet Our Team</h2>
+        <p class="muted center">
+          Passionate students building better financial tools for our generation
+        </p>
+      </div>
+
+      <div class="team-grid">
+        <div class="team-member">
+          <div class="avatar blue-avatar">VM</div>
+          <h3 class="h3">Diep Vu Minh</h3>
+          <div class="role">Full-stack Developer</div>
+        </div>
+
+        <div class="team-member">
+          <div class="avatar green-avatar">QL</div>
+          <h3 class="h3">Nguyen Quoc Loc</h3>
+          <div class="role">Full-stack Developer</div>
+        </div>
+
+        <div class="team-member">
+          <div class="avatar purple-avatar">TB</div>
+          <h3 class="h3">Nguyen Thi Thanh Binh</h3>
+          <div class="role">Full-stack Developer</div>
+        </div>
+
+        <div class="team-member">
+          <div class="avatar pink-avatar">TK</div>
+          <h3 class="h3">Tran Tuong Khang</h3>
+          <div class="role">Full-stack Developer</div>
+        </div>
+
+        <div class="team-member">
+          <div class="avatar orange-avatar">MH</div>
+          <h3 class="h3">Nguyen Le Minh Huan</h3>
+          <div class="role">Full-stack Developer</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Roadmap -->
+  <section class="section" id="roadmap">
+    <div class="container">
+      <div class="sectionHead">
+        <h2 class="h2 center">Project Roadmap</h2>
+        <p class="muted center">
+          Planned development milestones for ZeroBase.
+        </p>
+      </div>
+
+      <div class="grid3">
+        <div class="step">
+          <div class="step__top">
+            <span class="iconBadge iconBadge--orange">①</span>
+            <span class="muted">Ideation</span>
+          </div>
+          <h3 class="h3">Research & Validation</h3>
+          <p class="muted">
+            Identify user pain points and define core requirements.
+          </p>
+        </div>
+
+        <div class="step">
+          <div class="step__top">
+            <span class="iconBadge iconBadge--blue">②</span>
+            <span class="muted">Development</span>
+          </div>
+          <h3 class="h3">Design & MVP Build</h3>
+          <p class="muted">
+            Create UI design and implement essential budgeting features.
+          </p>
+        </div>
+
+        <div class="step">
+          <div class="step__top">
+            <span class="iconBadge iconBadge--green">③</span>
+            <span class="muted">Launch</span>
+          </div>
+          <h3 class="h3">Deployment & Feedback</h3>
+          <p class="muted">
+            Publish landing page and collect early user feedback.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container contact">
+      <div>
+        <h2 class="h2">Get in touch</h2>
+        <p class="muted">
+          For feedback, collaboration, or project evaluation.
+        </p>
+      </div>
+
+      <div class="contact__box">
+        <div class="field">
+          <label>GitHub Repository</label>
+          <div class="fakeInput">
+            https://github.com/The-Poca-s-Four/ZeroBase
+          </div>
+        </div>
+        <a class="btn btn--primary full" href="#">
+          Contact us
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__wrap">
+      <span class="muted">© 2025 ZeroBase Project</span>
+      <span class="muted">Privacy • Terms • FAQ</span>
+    </div>
+  </footer>
+</body>
+</html>
